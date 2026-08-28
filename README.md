@@ -52,6 +52,8 @@ Transfer learning with InceptionV3 was explored to test whether pretrained visua
 
 ## Results
 
+![Reported model accuracy comparison](assets/model_accuracy_comparison.svg)
+
 | Model | Reported Accuracy |
 | --- | ---: |
 | Custom CNN | ~55.9% |
@@ -102,6 +104,7 @@ Through this project, I explored:
 ## Repository Contents
 
 - `writer_identification_cnn_inceptionv3.ipynb` — dataset preparation, model training, evaluation, and comparison
+- `assets/model_accuracy_comparison.svg` — visual summary of the reported model comparison
 - `requirements.txt` — core Python dependencies used by the project
 - `.gitignore` — repository exclusions for private data, generated outputs, and local files
 
