@@ -52,12 +52,12 @@ Transfer learning with InceptionV3 was explored to test whether pretrained visua
 
 ## Results
 
-| Model | Test Accuracy |
+| Model | Reported Accuracy |
 | --- | ---: |
 | Custom CNN | ~55.9% |
 | InceptionV3 | ~66.9% |
 
-The InceptionV3-based approach achieved approximately **11 percentage points higher test accuracy** than the custom CNN in the reported experiment.
+The InceptionV3-based approach achieved approximately **11 percentage points higher reported accuracy** than the custom CNN in the documented experiment.
 
 ### Key Finding
 
@@ -69,6 +69,7 @@ These results describe performance on writers represented in the dataset and sho
 
 - Python
 - TensorFlow / Keras
+- Scikit-learn
 - Pandas
 - NumPy
 - Matplotlib
