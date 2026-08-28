@@ -13,6 +13,12 @@ This academic machine learning project compares two approaches for multi-class w
 
 The goal was not only to train a classifier, but also to compare how a custom architecture and a pretrained visual feature extractor perform on the same handwriting identification task.
 
+## My Role & Contribution
+
+This was an **individual academic machine learning project**. I was responsible for the end-to-end experimental workflow, including dataset inspection and preparation, image preprocessing, stratified data splitting, model implementation, training, staged fine-tuning, evaluation, visualization, and interpretation of the results.
+
+AI-assisted tools were used as supporting resources during development for tasks such as debugging, code review, and documentation. The experimental decisions, implementation, execution, and final analysis remained my responsibility.
+
 ## Dataset
 
 The dataset contains:
