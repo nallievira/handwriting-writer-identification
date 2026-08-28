@@ -29,6 +29,8 @@ The data was prepared for multi-class classification and evaluated using differe
 
 ## Experimental Workflow
 
+![Research workflow extracted from the project paper](assets/research_workflow.jpg)
+
 The project follows this general workflow:
 
 1. Audit and prepare the handwriting image dataset
@@ -37,7 +39,7 @@ The project follows this general workflow:
 4. Preprocess images for model training
 5. Train a custom CNN baseline
 6. Apply transfer learning with InceptionV3
-7. Evaluate both approaches on held-out test data
+7. Evaluate both approaches on held-out validation data
 8. Compare their classification performance
 
 ## Approaches
@@ -60,6 +62,12 @@ Transfer learning with InceptionV3 was explored to test whether pretrained visua
 | InceptionV3 | ~66.9% |
 
 The InceptionV3-based approach achieved approximately **11 percentage points higher reported accuracy** than the custom CNN in the documented experiment.
+
+### Training Behavior
+
+The original project paper includes training and validation curves generated from the recorded model histories. One representative curve is included below directly from the paper materials.
+
+![CNN training and validation accuracy on the 80:20 split](assets/cnn_accuracy_80_20.jpg)
 
 ### Key Finding
 
@@ -105,6 +113,8 @@ Through this project, I explored:
 
 - `writer_identification_cnn_inceptionv3.ipynb` — dataset preparation, model training, evaluation, and comparison
 - `assets/model_accuracy_comparison.svg` — visual summary of the reported model comparison
+- `assets/research_workflow.jpg` — research workflow extracted from the project paper
+- `assets/cnn_accuracy_80_20.jpg` — CNN training/validation accuracy curve extracted from the project paper
 - `requirements.txt` — core Python dependencies used by the project
 - `.gitignore` — repository exclusions for private data, generated outputs, and local files
 
