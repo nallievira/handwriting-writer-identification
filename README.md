@@ -75,6 +75,16 @@ These results describe performance on writers represented in the dataset and sho
 - Pillow
 - Google Colab
 
+## Setup
+
+Install the core Python dependencies with:
+
+```bash
+pip install -r requirements.txt
+```
+
+The full experiment still requires authorized access to the private handwriting dataset and the corresponding local/Google Drive paths used by the notebook.
+
 ## What I Learned
 
 Through this project, I explored:
@@ -91,13 +101,14 @@ Through this project, I explored:
 ## Repository Contents
 
 - `writer_identification_cnn_inceptionv3.ipynb` — dataset preparation, model training, evaluation, and comparison
-- `.gitignore` — repository exclusions
+- `requirements.txt` — core Python dependencies used by the project
+- `.gitignore` — repository exclusions for private data, generated outputs, and local files
 
 ## Reproducibility Notes
 
 The notebook contains placeholder paths for private dataset locations. Because the original handwriting dataset is not publicly distributable, the repository cannot reproduce the full experiment without authorized access to the source data.
 
-The notebook and reported outputs are retained to document the experimental process and model comparison.
+The dependency file is intentionally kept lightweight and unpinned because the original Google Colab environment versions were not preserved as part of the experiment. The notebook and reported outputs are retained to document the experimental process and model comparison.
 
 ## Project Context
 
