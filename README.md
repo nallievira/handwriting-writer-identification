@@ -65,9 +65,9 @@ The InceptionV3-based approach achieved approximately **11 percentage points hig
 
 ### Training Behavior
 
-The original project paper includes training and validation curves generated from the recorded model histories. One representative curve is included below directly from the paper materials.
+The curve below corresponds to the CNN 80:20 training experiment reported in the project paper. A vector version is used here so the plot remains sharp when viewed or zoomed on GitHub.
 
-![CNN training and validation accuracy on the 80:20 split](assets/cnn_accuracy_80_20.jpg)
+![CNN training and validation accuracy on the 80:20 split](assets/curve_accuracy_cnn_80_20.svg)
 
 ### Key Finding
 
@@ -114,7 +114,7 @@ Through this project, I explored:
 - `writer_identification_cnn_inceptionv3.ipynb` — dataset preparation, model training, evaluation, and comparison
 - `assets/model_accuracy_comparison.svg` — visual summary of the reported model comparison
 - `assets/research_workflow.jpg` — research workflow extracted from the project paper
-- `assets/cnn_accuracy_80_20.jpg` — CNN training/validation accuracy curve extracted from the project paper
+- `assets/curve_accuracy_cnn_80_20.svg` — sharp vector version of the CNN 80:20 training/validation accuracy curve
 - `requirements.txt` — core Python dependencies used by the project
 - `.gitignore` — repository exclusions for private data, generated outputs, and local files
 
